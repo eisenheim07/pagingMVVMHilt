@@ -15,8 +15,6 @@ import dagger.hilt.android.AndroidEntryPoint
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
-    //deepak
-
     private lateinit var binding: ActivityMainBinding
     private lateinit var progressDialog: ProgressDialog
     private val appViewModel by viewModels<AppViewModel>()
